@@ -1,5 +1,0 @@
-# Mengabaikan file database.php di dalam app/config
-app/config/database.php
-
-# Mengabaikan file middleware.php di root proyek
-middleware.php
