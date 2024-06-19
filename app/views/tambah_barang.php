@@ -8,7 +8,7 @@ $barang = new Barang($conn);
 
 if(isset($_POST["submit"])) {
     if ($barang->create($_POST, $_FILES)) {
-        header("Location: index.php"); // Jika berhasil, redirect ke halaman index
+        header("Location: index.php"); 
         exit;
     }
 }
